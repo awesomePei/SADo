@@ -18,6 +18,9 @@ export default function Home() {
       <h1 className="text-center scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl mb-8">
         SADo
       </h1>
+      <h2 className="text-center scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl mb-8">
+        hi
+      </h2>
       <div className="max-w-2xl mx-auto space-y-8">
         <TodoForm onSubmit={createTodo} />
         <TodoList />
